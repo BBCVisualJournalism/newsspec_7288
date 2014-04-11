@@ -1,0 +1,21 @@
+<%= include('includes/top.tmpl') %>
+
+    <div class="main">
+        <div class="delayed-image-load" data-alt="<%= overall_headline %>" data-src="<%= pathStatic %>/<%= vocab_dir %>/img/320/header.jpg" data-width="320" style="width: 100%;"></div>
+        <h1 class="quiz-header"><%= overall_headline %></h1>
+
+        <p><%= overall_question %></p>
+
+        <div class="quiz"></div>
+    </div>
+
+<!--[if lt IE 9]>
+    <style type="text/css">
+        .quiz--question-section__7 .quiz--option {
+            background-image: none;
+        }
+    </style>
+<![endif]-->
+
+<%= include('quizData.tmpl') %>
+<%= include('includes/bottom.tmpl') %>

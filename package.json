@@ -1,0 +1,40 @@
+{
+  "name": "India_General_Elections_Quiz",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/BBCVisualJournalism/newsspec_7288"
+  },
+  "description": "News Specials project scaffold for deploying bespoke content via an iframe.",
+  "version": "0.2.0",
+  "project_number": "7288",
+  "cpsId": "--REPLACEME--",
+  "storyPageUrl": "",
+  "year": "2014",
+  "istatsName": "--REPLACEME--",
+  "googleSpreadsheetId": "0AgNduZUapwYldHpTVTQtczg3aU95NU1fV2NHWkE0T3c",
+  "localhost": "/Users/ashtoc03/Sites/bbc/",
+  "devDependencies": {
+    "grunt":                            "~0.4.0",
+    "grunt-cli":                        "~0.1.11",
+    "grunt-contrib-watch":              "~0.5.3",
+    "grunt-preprocess":                 "~3.0.1",
+    "grunt-contrib-requirejs":          "0.4.1",
+    "grunt-contrib-copy":               "~0.4.1",
+    "grunt-contrib-sass":               "~0.5.0",
+    "grunt-responsive-images":          "0.1.1",
+    "grunt-contrib-imagemin":           "~0.3.0",
+    "grunt-contrib-jshint":             "0.6.4",
+    "grunt-contrib-jasmine":            "~0.4.x",
+    "grunt-template-jasmine-requirejs": "0.1.9",
+    "grunt-contrib-uglify":             "0.2.4",
+    "grunt-contrib-clean":              "0.5.0",
+    "grunt-text-replace":               "~0.3.9",
+    "grunt-contrib-connect":            "~0.5.0",
+    "grunt-multi-lang-site-generator":  "~0.2.1",
+    "wrench":                           "~1.5.4",
+    "grunt-cloudfile-to-vocab":         "~0.1.2",
+    "grunt-rename":                     "~0.1.3",
+    "lodash-node":                      "2.4.1",
+    "grunt-contrib-csslint":            "~0.2.0"
+  }
+}

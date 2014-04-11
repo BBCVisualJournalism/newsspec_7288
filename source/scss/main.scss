@@ -1,0 +1,150 @@
+$anchor-active: #f00;
+
+@import "news_special/defaults";
+
+.quiz-header {
+  margin-top: 0;
+}
+
+.quiz--question-section__7 {
+  .quiz--option {
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 7px;
+    // positioning of the middle element
+    background-position: 0 -98px;
+
+    &:first-child {
+      // first element positioning
+      background-position: 0 0;
+    }
+    &:last-child {
+      // last element positioning
+      background-position: 0 -50px;
+    }
+  }
+}
+
+.quiz {}
+
+.quiz__mode-question {
+
+  .quiz--question-section {
+    display: block;
+  }
+
+  .quiz--result-section {
+    display: none;
+  }
+
+}
+
+.quiz__mode-result {
+
+  .quiz--question-section {
+    display: none;
+  }
+
+  .quiz--result-section {
+    display: block;
+    background: #FFCC99;
+    margin-bottom: 1em;
+    padding: 16px;
+    text-align: center;
+
+    .quiz--overview, .quiz--score {
+      color: #505050;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Hide the score according to Paul's suggestions */
+    .quiz--score {
+      display: none;
+    }
+
+    .quiz--summary {
+      margin: 1.2em 0;
+    }
+  }
+
+}
+
+.quiz--progress-bar {
+  background: gainsboro;
+  height: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.quiz--progress-indicator {
+  background: grey;
+  height: 100%;
+          transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+}
+
+.quiz--list-of-options {
+  padding-left: 0;
+}
+.quiz--option {
+  list-style: none;
+}
+
+.quiz--option--disabled {
+  opacity: 0.3;
+
+  .quiz--checkbox, .quiz--label {
+    cursor: default;
+  }
+}
+
+.quiz--label {
+  display: block;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.quiz--label:hover {
+  background: gainsboro;
+}
+
+.quiz--checkbox {
+  cursor: pointer;
+}
+
+.quiz--supporting-text--generic {
+  display: none;
+}
+
+.quiz--next-button {
+  background: gainsboro;
+  border: 0;
+  float: right;
+  margin: 0.5em 0.5em 0 0;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+.quiz--next-button:hover,
+.quiz--next-button:focus {
+  background: grey;
+}
+
+.quiz--restart-button {
+  background: gainsboro;
+  border: 0;
+  display: block;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.quiz--restart-button:hover,
+.quiz--restart-button:focus {
+  background: grey;
+}
+
+@import "worldservice";

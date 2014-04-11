@@ -1,0 +1,26 @@
+html[lang="ar"],
+html[lang="fa"],
+html[lang="ps"],
+html[lang="ur"] {
+
+    .quiz--list-of-options {
+        padding-right: 0;
+    }
+
+    .quiz--question-section__7 {
+        .quiz--option {
+            padding-right: 40px;
+            // positioning of the middle element
+            background-position: right -98px;
+
+            &:first-child {
+              // first element positioning
+                background-position: right 0;
+            }
+            &:last-child {
+              // last element positioning
+              background-position: right -50px;
+            }
+        }
+    }
+}

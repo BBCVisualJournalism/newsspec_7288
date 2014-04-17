@@ -21,6 +21,7 @@ body {
     line-height: 17px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    display: none;
 }
 
 .masthead__logo {
@@ -46,6 +47,7 @@ body {
 }
 
 .footer {
+    display: none;
     bottom: 0;
     color: #fff;
     left: 0;
